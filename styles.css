@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 100px;
+}
+input {
+    width: 400px;
+    padding: 10px;
+}
+
+button {
+    font: bold;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+#form input {
+    margin-bottom: 2px;
+}
